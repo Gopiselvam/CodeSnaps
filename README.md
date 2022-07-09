@@ -40,4 +40,7 @@ This is to refer the commonly used functionality(code) in Java
  elem2 <br/>
  elem3 <br/>
  
- 
+ ## Get the root directory of java program
+ ```
+ System.getProperty("user.dir");
+```

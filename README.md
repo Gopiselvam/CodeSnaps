@@ -1,6 +1,7 @@
 # CodeSnaps
 This is to refer the commonly used functionality(code) in Java
 
+# Collections
 
 ## Sort List<String> in ascending order res: List<String>
   ```
@@ -39,14 +40,25 @@ This is to refer the commonly used functionality(code) in Java
  elem1 <br/>
  elem2 <br/>
  elem3 <br/>
+  
+ ## Making n number of copies of a same element into collection
+  ```
+  Collections.nCopies(n, "element");
+  Collections.nCopies(3, "Hi");     // [Hi, Hi, Hi]
+  String.join("", Collection.nCopies(indentSize * n, " "));   // will create indentation for HTML tags
+  ```
  
- ## Get the root directory of java program
+# String  
+## String.format
+  ```
+  String.format("<li> %s </li>", str); 
+  ```
+
+# System things
+## Get the root directory of java program
  ```
  System.getProperty("user.dir");
 ```
 
   
-## String.format
-  ```
-  String.format("<li> %s </li>", str); 
-  ```
+

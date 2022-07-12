@@ -44,3 +44,9 @@ This is to refer the commonly used functionality(code) in Java
  ```
  System.getProperty("user.dir");
 ```
+
+  
+## String.format
+  ```
+  String.format("<li> %s </li>", str); 
+  ```

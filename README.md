@@ -61,7 +61,13 @@ This is to refer the commonly used functionality(code) in Java
   String.format("<li> %s </li>", str); 
   String.format("2.0f", 64.3493872);      // output: "64"
   ```
-
+## remove duplicate characters from String
+  ```
+  String str = "12311145622";
+  String res = Arrays.stream(str.split("")).distinct().collect(Collectors.joining);
+  System.out.println(res);      // op: 123456
+  ```
+  
 # System things
 ## Get the root directory of java program
  ```
